@@ -1,0 +1,107 @@
+2021-05-24 20:31:05,469 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-05-24 20:31:05,503 [     34]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /Users/jiangzixu/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/java/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/tools.jar
+2021-05-24 20:31:06,180 [    711]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 528 ms
+2021-05-24 20:31:06,642 [   1173]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /Users/jiangzixu/MyFile/git/demo, global options path = /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/config/options
+2021-05-24 20:31:07,299 [   1830]   INFO - serialization.JpsProjectLoader - External project config dir is used: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/project
+2021-05-24 20:31:07,305 [   1836]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/modules
+2021-05-24 20:31:07,524 [   2055]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 881 ms
+2021-05-24 20:31:07,524 [   2055]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 10 modules, 201 libraries
+2021-05-24 20:31:07,819 [   2350]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=602
+2021-05-24 20:31:07,867 [   2398]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 20:31:07,867 [   2398]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 20:31:08,327 [   2858]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:true; isMake:false parallel compilation:false
+2021-05-24 20:31:08,335 [   2866]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2021-05-24 20:31:08,335 [   2866]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2021-05-24 20:31:08,347 [   2878]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2021-05-24 20:31:08,347 [   2878]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 7d06bac2
+2021-05-24 20:31:08,361 [   2892]   INFO - s.index.CompilerReferenceIndex - backward reference index version doesn't exist
+2021-05-24 20:31:08,743 [   3274]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 245 ms
+2021-05-24 20:31:10,333 [   4864]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 1067 ms
+2021-05-24 20:31:10,356 [   4887]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 1094 ms
+2021-05-24 20:31:10,380 [   4911]   INFO - s.incremental.java.JavaBuilder - Compiling 5 java files; module: demo-shared
+2021-05-24 20:31:12,931 [   7462]   INFO - s.incremental.java.JavaBuilder - Compiling 19 java files; module: demo-rpc-client
+2021-05-24 20:31:15,401 [   9932]   INFO - s.incremental.java.JavaBuilder - Compiling 16 java files; module: demo-common
+2021-05-24 20:31:16,312 [  10843]   INFO - s.incremental.java.JavaBuilder - Compiling 32 java files; module: demo-domain
+2021-05-24 20:31:17,884 [  12415]   INFO - s.incremental.java.JavaBuilder - Compiling 2 java files; module: demo-domain (tests)
+2021-05-24 20:31:18,481 [  13012]   INFO - s.incremental.java.JavaBuilder - Compiling 40 java files; module: demo-infrastructure
+2021-05-24 20:31:20,251 [  14782]   INFO - s.incremental.java.JavaBuilder - Compiling 29 java files; module: demo-application
+2021-05-24 20:31:21,183 [  15714]   INFO - s.incremental.java.JavaBuilder - Compiling 3 java files; module: demo-application (tests)
+2021-05-24 20:31:21,741 [  16272]   INFO - s.incremental.java.JavaBuilder - Compiling 25 java files; module: demo-web
+2021-05-24 20:31:22,472 [  17003]   INFO - s.incremental.java.JavaBuilder - Compiling 9 java files; module: demo-mq
+2021-05-24 20:31:23,025 [  17556]   INFO - s.incremental.java.JavaBuilder - Compiling 12 java files; module: demo-rpc
+2021-05-24 20:31:23,642 [  18173]   INFO - s.incremental.java.JavaBuilder - Compiling 3 java files; module: demo-rpc (tests)
+2021-05-24 20:31:24,177 [  18708]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'IntelliLang Pattern Validator' took 53 ms; 0 sources processed
+2021-05-24 20:31:24,177 [  18708]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Maven Resources Compiler' took 118 ms; 18 sources processed (6 ms per file)
+2021-05-24 20:31:24,177 [  18708]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'NotNull instrumentation' took 250 ms; 0 sources processed
+2021-05-24 20:31:24,177 [  18708]   INFO - rains.jps.cmdline.BuildSession - Build duration: Builder 'Java' took 13 s 16 ms; 179 sources processed (72 ms per file)
+2021-05-24 20:31:24,180 [  18711]   INFO - s.incremental.java.JavaBuilder - javac 1.8.0_261 was used to compile [demo-rpc-client, demo-mq, demo-rpc, demo-web, demo-infrastructure, demo-common, demo-shared, demo-application, demo-domain]
+2021-05-24 20:31:24,868 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-05-24 20:31:24,868 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /Users/jiangzixu/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/java/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/tools.jar
+2021-05-24 20:31:25,071 [    203]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 175 ms
+2021-05-24 20:31:25,525 [    657]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 450 ms
+2021-05-24 20:31:25,589 [    721]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /Users/jiangzixu/MyFile/git/demo, global options path = /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/config/options
+2021-05-24 20:31:25,819 [    951]   INFO - serialization.JpsProjectLoader - External project config dir is used: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/project
+2021-05-24 20:31:25,825 [    957]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/modules
+2021-05-24 20:31:25,933 [   1065]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 343 ms
+2021-05-24 20:31:25,933 [   1065]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 10 modules, 201 libraries
+2021-05-24 20:31:26,117 [   1249]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=602
+2021-05-24 20:31:26,126 [   1258]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 20:31:26,126 [   1258]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 20:31:26,437 [   1569]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1576 ms
+2021-05-24 20:31:26,619 [   1751]   INFO - etbrains.jps.cmdline.BuildMain - Build canceled, but no build session is running. Exiting.
+2021-05-24 21:46:55,812 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-05-24 21:46:55,813 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /Users/jiangzixu/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/java/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/tools.jar
+2021-05-24 21:46:56,065 [    253]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 215 ms
+2021-05-24 21:46:56,218 [    406]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /Users/jiangzixu/MyFile/git/demo, global options path = /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/config/options
+2021-05-24 21:46:56,475 [    663]   INFO - serialization.JpsProjectLoader - External project config dir is used: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/project
+2021-05-24 21:46:56,482 [    670]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/modules
+2021-05-24 21:46:56,604 [    792]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 385 ms
+2021-05-24 21:46:56,604 [    792]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 10 modules, 201 libraries
+2021-05-24 21:46:56,842 [   1030]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=602
+2021-05-24 21:46:56,851 [   1039]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 21:46:56,851 [   1039]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 21:46:57,140 [   1328]   INFO - .incremental.IncProjectBuilder - Building project; isRebuild:false; isMake:true parallel compilation:false
+2021-05-24 21:46:57,144 [   1332]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JVM: true
+2021-05-24 21:46:57,144 [   1332]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin incremental compilation enabled for JS: true
+2021-05-24 21:46:57,153 [   1341]   INFO - kotlin.jps.build.KotlinBuilder - is Kotlin compiler daemon enabled: true
+2021-05-24 21:46:57,153 [   1341]   INFO - kotlin.jps.build.KotlinBuilder - Label in local history: build started 689870b5
+2021-05-24 21:46:57,316 [   1504]   INFO - .incremental.IncProjectBuilder - Cleaned output directories in 4 ms
+2021-05-24 21:46:58,913 [   3101]   INFO - kotlin.jps.build.KotlinBuilder - KotlinTargetsIndex created in 1065 ms
+2021-05-24 21:46:58,938 [   3126]   INFO - kotlin.jps.build.KotlinBuilder - Total Kotlin global compile context initialization time: 1093 ms
+2021-05-24 21:46:59,556 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-05-24 21:46:59,556 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /Users/jiangzixu/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/java/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/tools.jar
+2021-05-24 21:46:59,774 [    218]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 175 ms
+2021-05-24 21:47:00,521 [    965]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 744 ms
+2021-05-24 21:47:00,559 [   1003]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /Users/jiangzixu/MyFile/git/demo, global options path = /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/config/options
+2021-05-24 21:47:00,693 [   1137]   INFO - serialization.JpsProjectLoader - External project config dir is used: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/project
+2021-05-24 21:47:00,696 [   1140]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/modules
+2021-05-24 21:47:00,769 [   1213]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 210 ms
+2021-05-24 21:47:00,769 [   1213]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 10 modules, 201 libraries
+2021-05-24 21:47:00,874 [   1318]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=602
+2021-05-24 21:47:00,944 [   1388]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 21:47:00,944 [   1388]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 21:47:01,072 [   1516]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1530 ms
+2021-05-24 21:48:24,291 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-05-24 21:48:24,292 [      1]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /Users/jiangzixu/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/java/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/tools.jar
+2021-05-24 21:48:24,506 [    215]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 180 ms
+2021-05-24 21:48:24,714 [    423]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /Users/jiangzixu/MyFile/git/demo, global options path = /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/config/options
+2021-05-24 21:48:25,002 [    711]   INFO - serialization.JpsProjectLoader - External project config dir is used: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/project
+2021-05-24 21:48:25,008 [    717]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/modules
+2021-05-24 21:48:25,143 [    852]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 428 ms
+2021-05-24 21:48:25,143 [    852]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 10 modules, 201 libraries
+2021-05-24 21:48:25,426 [   1135]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=602
+2021-05-24 21:48:25,434 [   1143]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 21:48:25,434 [   1143]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 21:48:26,478 [      0]   INFO - etbrains.jps.cmdline.BuildMain - ==================================================
+2021-05-24 21:48:26,478 [      0]   INFO - etbrains.jps.cmdline.BuildMain - Build process started. Classpath: /Users/jiangzixu/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2020.2.3/8da1f9add5eaff238a403058a25a22be5a339336/ideaIC-2020.2.3/plugins/java/lib/jps-launcher.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/lib/tools.jar
+2021-05-24 21:48:26,716 [    238]   INFO - etbrains.jps.cmdline.BuildMain - Connection to IDE established in 198 ms
+2021-05-24 21:48:26,867 [    389]   INFO -    #com.intellij.jna.JnaLoader - JNA library (64-bit) loaded in 147 ms
+2021-05-24 21:48:26,930 [    452]   INFO - jps.cmdline.JpsModelLoaderImpl - Loading model: project path = /Users/jiangzixu/MyFile/git/demo, global options path = /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/config/options
+2021-05-24 21:48:27,173 [    695]   INFO - serialization.JpsProjectLoader - External project config dir is used: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/project
+2021-05-24 21:48:27,179 [    701]   INFO - serialization.JpsProjectLoader - External project config dir is used for modules: /Users/jiangzixu/MyFile/git/moyu/build/idea-sandbox/system/external_build_system/demo.f7289a69/modules
+2021-05-24 21:48:27,284 [    806]   INFO - jps.cmdline.JpsModelLoaderImpl - Model loaded in 354 ms
+2021-05-24 21:48:27,284 [    806]   INFO - jps.cmdline.JpsModelLoaderImpl - Project has 10 modules, 201 libraries
+2021-05-24 21:48:27,468 [    990]   INFO - m.intellij.util.io.StorageLock - lower=100; upper=500; buffer=10; max=602
+2021-05-24 21:48:27,473 [    995]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 21:48:27,473 [    995]   INFO - tellij.util.io.FileChannelUtil - interruptible FileChannel-s will be used for indexes
+2021-05-24 21:48:27,685 [   1207]   INFO - etbrains.jps.cmdline.BuildMain - Pre-loaded process ready in 1217 ms

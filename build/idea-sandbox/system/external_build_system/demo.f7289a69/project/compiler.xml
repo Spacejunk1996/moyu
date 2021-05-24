@@ -1,0 +1,16 @@
+<project>
+  <component name="ExternalCompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="demo-application" target="1.8" />
+      <module name="demo-common" target="1.8" />
+      <module name="demo-domain" target="1.8" />
+      <module name="demo-infrastructure" target="1.8" />
+      <module name="demo-mq" target="1.8" />
+      <module name="demo-rpc" target="1.8" />
+      <module name="demo-rpc-client" target="1.8" />
+      <module name="demo-shared" target="1.8" />
+      <module name="demo-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

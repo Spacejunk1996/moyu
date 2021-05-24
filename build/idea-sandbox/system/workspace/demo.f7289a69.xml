@@ -1,0 +1,40 @@
+<project version="4">
+  <component name="ExternalSystemProjectTracker">
+    <option name="projectSettingsTrackerStates">
+      <map>
+        <entry>
+          <key>
+            <Id>
+              <option name="externalProjectPath" value="demo" />
+              <option name="systemId" value="MAVEN" />
+            </Id>
+          </key>
+          <value>
+            <Project>
+              <option name="settingsTracker">
+                <State>
+                  <option name="dirty" value="false" />
+                  <option name="settingsFiles">
+                    <map>
+                      <entry key="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" value="2917376126" />
+                      <entry key="$PROJECT_DIR$/demo-application/pom.xml" value="271642868" />
+                      <entry key="$PROJECT_DIR$/demo-common/pom.xml" value="3807173048" />
+                      <entry key="$PROJECT_DIR$/demo-domain/pom.xml" value="2101710046" />
+                      <entry key="$PROJECT_DIR$/demo-infrastructure/pom.xml" value="1790121261" />
+                      <entry key="$PROJECT_DIR$/demo-mq/pom.xml" value="3380901180" />
+                      <entry key="$PROJECT_DIR$/demo-rpc-client/pom.xml" value="4271108392" />
+                      <entry key="$PROJECT_DIR$/demo-rpc/pom.xml" value="1549381177" />
+                      <entry key="$PROJECT_DIR$/demo-shared/pom.xml" value="3218313039" />
+                      <entry key="$PROJECT_DIR$/demo-web/pom.xml" value="3448629009" />
+                      <entry key="$PROJECT_DIR$/pom.xml" value="1881205230" />
+                    </map>
+                  </option>
+                </State>
+              </option>
+            </Project>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

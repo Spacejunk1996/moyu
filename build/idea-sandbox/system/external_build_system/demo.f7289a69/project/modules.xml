@@ -1,0 +1,16 @@
+<project>
+  <component name="ExternalProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/demo.iml" filepath="$PROJECT_DIR$/.idea/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-application/demo-application.iml" filepath="$PROJECT_DIR$/demo-application/demo-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-common/demo-common.iml" filepath="$PROJECT_DIR$/demo-common/demo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-domain/demo-domain.iml" filepath="$PROJECT_DIR$/demo-domain/demo-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-infrastructure/demo-infrastructure.iml" filepath="$PROJECT_DIR$/demo-infrastructure/demo-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-mq/demo-mq.iml" filepath="$PROJECT_DIR$/demo-mq/demo-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-rpc/demo-rpc.iml" filepath="$PROJECT_DIR$/demo-rpc/demo-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-rpc-client/demo-rpc-client.iml" filepath="$PROJECT_DIR$/demo-rpc-client/demo-rpc-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-shared/demo-shared.iml" filepath="$PROJECT_DIR$/demo-shared/demo-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-web/demo-web.iml" filepath="$PROJECT_DIR$/demo-web/demo-web.iml" />
+    </modules>
+  </component>
+</project>

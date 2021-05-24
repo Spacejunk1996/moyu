@@ -1,0 +1,16 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="android-sdk-library" />
+    <converter id="android-module-to-java-module" />
+    <converter id="android-proguard-options" />
+  </applied-converters>
+  <project-files>
+    <file path="/Users/jiangzixu/MyFile/git/demo/.idea/compiler.xml" timestamp="1620293298113" />
+    <file path="/Users/jiangzixu/MyFile/git/demo/.idea/encodings.xml" timestamp="1620293298127" />
+    <file path="/Users/jiangzixu/MyFile/git/demo/.idea/misc.xml" timestamp="1620293298116" />
+    <file path="/Users/jiangzixu/MyFile/git/demo/.idea/jarRepositories.xml" timestamp="1620293298157" />
+    <file path="/Users/jiangzixu/MyFile/git/demo/.idea/workspace.xml" timestamp="1621859451241" />
+  </project-files>
+</conversion>
